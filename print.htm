@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<META NAME="GENERATOR" Content="Microsoft Visual Studio 7.0">
+		<TITLE></TITLE>
+		<script> 
+function printT(){ 
+document.body.innerHTML = "제목 : " + window.opener.document.all.title.value + "<br>"+
+"글쓴이 :" +   window.opener.document.all.id.value + "<br>" +
+window.opener.document.all.contents.value.replace(/\n/g, "<br>"); 
+print(); 
+self.close(); 
+} 
+window.onload=printT; 
+</script> 
+	</HEAD>
+	<BODY>
+	</BODY>
+</HTML>
